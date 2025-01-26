@@ -21,7 +21,7 @@
     text-decoration: none;
   }
   .nav-anchor{
-    margin-top: 16px;
+    margin-top: 25px;
     display: flex;
     gap: 32px;
   }
@@ -51,5 +51,51 @@
     font-size: 20px;
     width: 197px;
     height: 50px;
+    margin-top: 16px;
   }
-  
+  .banner-sec{
+   width: 80%;
+   margin: 0 auto;
+  }
+  .banner-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 1158.61px;
+    height: 575px;
+    margin-top: 24px;
+  }
+  .banner-content{
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-heading{
+    font-weight: 700;
+    font-size: 56px;
+    color: rgba(17, 17, 17, 1);
+  }
+  .heading-color{
+    color: rgba(254, 163, 1, 1);
+  }
+  .heading-color2{
+    color: rgba(1, 172, 253, 1);
+  }
+  .banner-peragraph{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(17, 17, 17, 1);
+  }
+  .banner-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .banner-img{
+    width: 468.61px;
+    height: 575px;
+  }
