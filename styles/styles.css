@@ -133,4 +133,8 @@
   .banner-container{
     flex-direction: column-reverse;
   }
+  .banner-heading{
+    font-size: 30px;
+  }
+  
 }
