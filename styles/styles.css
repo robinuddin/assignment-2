@@ -61,6 +61,9 @@
     margin-top: 24px;
     display: none;
   }
+  .nav-hr{
+    display: none;
+  }
   .banner-sec{
    display: flex;
    justify-content: center;
@@ -110,6 +113,59 @@
     width: 100%;
     height: 100%;
   }
+  .cariculam-section{
+  }
+  .cariculam-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 46px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .cari-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28.19px;
+  }
+  .cariculam-card-1{
+    border-radius: 18.86px;
+   background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0)) ;
+   justify-items: center;
+  }
+  .card-1-p{
+    font-weight: bold;
+    font-size: 15.9px;
+    color: rgba(100, 200, 255, 1);
+  }
+  .card-1-head{
+    font-weight: bold;
+    font-size: 24.52px;
+    color: rgba(32, 32, 32, 1);
+  }
+  .cariculam-card-1 img{
+    text-align: center;
+  }
+  .card-2{
+    color: rgba(240, 170, 0, 1);
+    font-weight: bold;
+    font-size: 15.09px;
+  }
+  .cariculam-card-2{
+    border-radius: 18.86px;
+    background-image: linear-gradient(to bottom,rgba(255, 244, 220, 1),rgba(255, 255, 255, 1));
+    justify-items: center;
+  }
+  .card-3{
+    color: rgba(135, 0, 255, 1);
+    font-weight: bold;
+    font-size: 15.09px;
+  }
+  .cariculam-card-3{
+    border-radius: 18.86px;
+    background-image: linear-gradient(to bottom,rgba(242, 232, 255, 1),rgba(255, 255, 255, 1));
+    justify-items: center;
+  }
 @media screen and (max-width:576px) {
   .nav-anchor{
     display: none;
@@ -136,5 +192,18 @@
   .banner-heading{
     font-size: 30px;
   }
-  
+  .nav-hr{
+    display: block;
+    margin-top: 24px;
+    width: 100%;
+  }
+  .cari-content{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .cariculam-title{
+    font-weight: 600;
+    font-size: 30px;
+  }
 }
