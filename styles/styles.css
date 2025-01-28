@@ -235,10 +235,63 @@
   color: rgba(0, 0, 0, 1);
 }
 .story-custom{
-  width: 290.69px;
-  height: 301.61px;
+  /* width: 290.69px;
+  height: 301.61px; */
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 1);
+}
+.story-btn{
+  display: flex;
+  justify-content: center;
+  width: 197px;
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  background-color: rgba(17, 17, 17, 1);
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.logo-head{
+  display: flex;
+}
+.anchor-fotter{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.anchor-fotter a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(1, 172, 253, 1);
+  align-items: center;
+  height: 519px;
+}
+.footer-heading-1{
+  font-weight: bold;
+  font-size: 42.14px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-paragraph{
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-heading-2{
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-heading-3{
+  font-weight: 500;
+  font-size: 26px;
+  color: #FFFFFF;
 }
 @media screen and (max-width:576px) {
   .nav-anchor{
@@ -284,14 +337,55 @@
     display: none;
   }
   .story-grid-sec{
-    width: 90%;
-    margin: 0 auto;
+    width: 390px;
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 180px 180px;
+    row-gap: 4px;
+    column-gap: 4px;
   }
-.story-customa{
-  width: 173.35px;
-
+.story-custom{
+  width: 173.27px;
+  height: 179px;
 }
 .story-grid-sec img{
+  width: 173.27px;
+  height: 105.39px;
+}
+.story-heading-2{
+  font-size: 9.13px;
+}
+.story-btn{
+  width: 134px;
+  height: 30px;
+  font-size: 16px;
+  margin-left: 100px;
+}
+.footer-container{
+  flex-direction: column;
+  width: 400px;
+  height: 642px;
+  margin-top: 10px;
+}
+.logo-head a{
   width: 100%;
+  height: 100%;
+}
+.footer-heading-1{
+  font-size: 30px;
+}
+.footer-paragraph{
+  font-size: 18px;
+}
+.footer-about{
+  margin-right: 190px;
+}
+.footer-logo{
+  margin-right: 170px;
+}
+.footer-heading-2{
+  font-size: 20px;
+}
+.footer-heading-3{
+  font-size: 22px;
 }
 }
